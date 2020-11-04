@@ -1,0 +1,29 @@
+body{
+			background: #ff0084;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #33001b, #ff0084);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #33001b, #ff0084); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+		}
+		hr{
+			margin-top:-80px;
+		}
+		h1{
+			animation-duration:5s;
+			margin-top:250px;
+			margin-left:450px;
+			font-size:100px;
+			color:white;
+			position:relative;
+			animation-name:bounce;
+
+		}
+	
+		@keyframes bounce {
+			 0%{transform: translate(-400px,-300px);}
+			 20%{transform:translate(-300px,0px);}
+			 40%{transform:translate(-200px,-150px);}
+			 60%{transform:translate(-100px,0px);}
+			 80%{transform:translate(-50px,-50px);}
+			 100%{transform:translate(0,0px);}		 
+
+}
