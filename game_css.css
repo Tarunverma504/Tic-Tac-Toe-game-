@@ -85,7 +85,16 @@ table{
 
 
 }
-#_00
-{
-	
+
+#display3 button{
+	width:30%;
+	height:40px;
+	border-radius:20px;
+	border:none; outline:none;
+	background-color:white;
+	color:#C041BC;
+}
+#display3 button:hover{
+	background-color:#C041BC;
+	color:white;
 }
